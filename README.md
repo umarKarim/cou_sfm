@@ -11,12 +11,9 @@ This is the source code for the paper **Towards Continual, Online, Unsupervised 
 - Torchvision
 - Pandas 
 
-## Data Preparation 
- Download the [KITTI](https://1drv.ms/u/s!AiV6XqkxJHE2g1zyXt4mCKNbpdiw?e=ZJAhIl) dataset, the Virtual KITTI [RGB](http://download.europe.naverlabs.com//virtual_kitti_2.0.3/vkitti_2.0.3_rgb.tar), the rectified [NYU](https://drive.google.com/file/d/1oy5TpkMusgyJQpkXpqfQI7rvLt_RK5En/view?usp=sharing) the KITTI test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz5Zy7jWZd2GyMR2?e=kBD4lb), Virtual KITTI [depth](http://download.europe.naverlabs.com//virtual_kitti_2.0.3/vkitti_2.0.3_depth.tar) and the NYU [test](https://1drv.ms/u/s!AiV6XqkxJHE2kz85ZcYiCoZmSjKk?e=qGpvck). Extract data to appropriate locations. Saving SSD is encouraged but not required. Virtual KITTI is not required for the KITTI-NYU experiments. Similarly, NYU is not required for KITTI-vKITTI experiments. The directory names are slightly changed (by adding an underscore) for the NYU dataset for categorization of the code.
-
 # KITTI-NYU Experiments 
  ## Data Preparation
- Download the [KITTI](https://1drv.ms/u/s!AiV6XqkxJHE2g1zyXt4mCKNbpdiw?e=ZJAhIl) dataset, the rectified [NYU](https://drive.google.com/file/d/1oy5TpkMusgyJQpkXpqfQI7rvLt_RK5En/view?usp=sharing) the KITTI test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz5Zy7jWZd2GyMR2?e=kBD4lb) and the NYU test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz85ZcYiCoZmSjKk?e=qGpvck). Extract data to appropriate locations. Saving SSD is encouraged but not required. Virtual KITTI is not required for the KITTI-NYU experiments. Similarly, NYU is not required for KITTI-vKITTI experiments. The directory names are slightly changed (by adding an underscore) for the NYU dataset for categorization of the code.
+ Download the [KITTI](https://1drv.ms/u/s!AiV6XqkxJHE2g1zyXt4mCKNbpdiw?e=ZJAhIl) dataset, the rectified [NYU](https://drive.google.com/file/d/1oy5TpkMusgyJQpkXpqfQI7rvLt_RK5En/view?usp=sharing), the KITTI test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz5Zy7jWZd2GyMR2?e=kBD4lb) and the NYU test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz85ZcYiCoZmSjKk?e=qGpvck). Extract data to appropriate locations. Saving SSD is encouraged but not required. Virtual KITTI is not required for the KITTI-NYU experiments. Similarly, NYU is not required for KITTI-vKITTI experiments. The directory names are slightly changed (by adding an underscore) for the NYU dataset for categorization of the code.
 
 ## Pre-Training 
 Set paths in the *dir_options/pretrain_options.py* file. Then run 
@@ -60,7 +57,7 @@ Quantitative results are mentioned in the manuscript. Check the following [video
 
 # KITTI-vKITTI Experiments 
  ## Data Preparation
- Download the [KITTI](https://1drv.ms/u/s!AiV6XqkxJHE2g1zyXt4mCKNbpdiw?e=ZJAhIl) dataset, the Virtual KITTI [RGB](http://download.europe.naverlabs.com//virtual_kitti_2.0.3/vkitti_2.0.3_rgb.tar) and the KITTI test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz5Zy7jWZd2GyMR2?e=kBD4lb).Extract data to appropriate locations. Saving SSD is encouraged but not required. Virtual KITTI is not required for the KITTI-NYU experiments. Similarly, NYU is not required for KITTI-vKITTI experiments. 
+ Download the [KITTI](https://1drv.ms/u/s!AiV6XqkxJHE2g1zyXt4mCKNbpdiw?e=ZJAhIl) dataset, the Virtual KITTI [RGB](http://download.europe.naverlabs.com//virtual_kitti_2.0.3/vkitti_2.0.3_rgb.tar), and the KITTI test [dataset](https://1drv.ms/u/s!AiV6XqkxJHE2kz5Zy7jWZd2GyMR2?e=kBD4lb).Extract data to appropriate locations. Saving SSD is encouraged but not required. Virtual KITTI is not required for the KITTI-NYU experiments. Similarly, NYU is not required for KITTI-vKITTI experiments. 
 
 ## Pre-Training
 Set the paths in *dir_options/pretrain_options.py*. Then run the following
