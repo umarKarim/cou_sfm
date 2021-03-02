@@ -1,6 +1,12 @@
 # Towards Continual, Online, Unsupervised Depth  
 ## Introduction 
-This is the source code for the paper **Towards Continual, Online, Unsupervised Depth**. This code is for Structure from Motion (SfM)-based depth estimation. The stereo-based depth estimation is also available. 
+This is the source code for the paper **Towards Continual, Online, Unsupervised Depth**. This code is for Structure from Motion (SfM)-based depth estimation. 
+
+Manuscript is available [here](https://arxiv.org/abs/2103.00369).
+
+The stereo-based depth estimation is also available at [here](https://github.com/umarKarim/cou_stereo). 
+
+
 
 ## Requirements 
 - PyTorch 
