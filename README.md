@@ -59,7 +59,7 @@ Check this following [video](https://www.youtube.com/watch?v=_WNYOTDaCCM&t=10s&a
 The Absolute Relative metric is shown in the following table.
 
 | Training Dataset | Approach | Current Dataset | Other Dataset|
-| -------------- | ------------ | ------------ | -------------- | ------------- |-------|
+| -------------- | ------------ | ------------ | -------------- |
 KITTI | Fine-tuning | 0.1901 | 0.2916|
 KITTI | Proposed | 0.1497 | 0.1948 |
 NYU | Fine-tuning | 0.2504 | 0.3151 |
