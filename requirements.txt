@@ -1,0 +1,7 @@
+torch >= 1.7.1
+numpy >= 1.19.4
+matplotlib >= 3.3.3 
+opencv >= 4.5.0
+torchvision >= 0.2.2
+tensorboard >= 2.4.0
+pandas >= 1.1.5
