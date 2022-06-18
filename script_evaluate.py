@@ -73,8 +73,8 @@ if __name__ == '__main__':
     list_results_dir_nyu = ['results/{}/online_test_loss/nyu_online/'.format(network)]
     
     for run in runs:
-        list_results_dir_kitti.append('results/{}/prop_test_loss_run'.format(network) + run + '/kitti_online/')
-        list_results_dir_nyu.append('results/{}/prop_test_loss_run'.format(network) + run + '/nyu_online/')
+        list_results_dir_kitti.append('/hdd/local/sdb/umar/codes/cou_sfm/results/{}/prop_test_loss_run'.format(network) + run + '/kitti_online/')
+        list_results_dir_nyu.append('/hdd/local/sdb/umar/codes/cou_sfm/results/{}/prop_test_loss_run'.format(network) + run + '/nyu_online/')
     
     print('Results format: ')
     print('Finetuning: KITTI TDP, KITTI NDP')
